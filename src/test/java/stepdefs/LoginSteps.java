@@ -16,6 +16,8 @@ public class LoginSteps {
 	Map<String, String> loginPayload = new HashMap<>();
 	Response response;
 	String token;
+	
+	// Edited class
 
 	@Given("I have the login payload")
 	public void I_have_the_login_payload() {
